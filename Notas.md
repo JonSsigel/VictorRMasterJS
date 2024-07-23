@@ -38,3 +38,68 @@ span hace nada sobre el texto pero le puedes dar id's, clases y así, para dar e
 i texto en cursiva
 blockquote para hacer referencias lo pone como con sangria y asi.
 
+
+## listas.
+ol - lista ordenada. Esta tiene numeritos
+ul - listas no ordenadas. Deben ser las que tienen puntitos
+
+Dentro de listas puedes poner mas listas.
+
+## Imagen
++ Abre y cierra inmediatamente, no lleva texto
+	 + propiedades
+	 + Alt para poner texto que se muestra en caso de no ver la imagen.
+	 + Title para poner titulo de la imagen al pasar por encima.
+	 + src para poner la imagen
+		 + Ruta absoluta, que es la que tiene dentro de mi maquina
+		 + Ruta relativa, que es la referente al index
+	 + width, height para modificar el size de la imagen y va en 100px y asi. Xpx
+
+## Tablas
++ Etiquetas
+	+ table, atributo border para ver el borde de la tabla, se le puso un 1 pero es ver que tanto se le puede poner
+		+ th para el encabezado de la tabla, es con td pero en negritas
+		+ tr renglones
+			 + td columnas, atributos: colspan es el tamaño, osea si le pongo dos es de dos columnas
+
+## Formularios
++ Atributos
+	+ action para saber a donde va y asi.
+	+ method para saber el metodo que se usa, post, put y asi
++ label para poner una etiqueta y en name es bueno poner a que input va, poniendo el mismo nombre para CSS y asi.
++ input atributos type, name, placeholder
++ textarea para meter mucho texto
++ hay varios, se uso el selector e input de tipo radio.
+
++ input tipo submit para borrar y enviar
+
+# Ejercicio
+	Varias paginas enlazadas
+	Pagina principal con encabezado, menu de listas con enlaces a otras paginas
+		Subtitulo, encabezado de menor tamanio
+		Parrafo, imagen, y un enlace llevara a otra pagina con el mismo encabezado y menus
+			Diferencia es el subtitulo y una tabla que llevara con cada elemento un texto y abajo una imagen
+		Mismo encabezado para otra página de contacto.
+			Formulario, nombre, descripcion, selector y botón de enviar. Páginas enlazadas entre si.
+## Etiquetas adicionales
+
+a propiedad href para mandar a un link, puede ser una ubicacion, la propiedad title es un toolkit
+	propiedad target="_blank" para que lo abra en otra ventana
+
+
+# JavaScript
+	+ Primeros pasos, el hola mundo y así
+	+ Variables
+	+ Tipos de datos
+	+ Operadores
+	+ Condicionales
+	+ Bucles
+	+ Alertas y ventanas
+	+ Bloque de ejercicios 1
+	+ Funciones
+	+ Arrays
+	+ Bloque de ejercicios 2
+
+## Herramientas básicas.
+	+ Editor de código
+	+ Navegador web
