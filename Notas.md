@@ -103,3 +103,6 @@ a propiedad href para mandar a un link, puede ser una ubicacion, la propiedad ti
 ## Herramientas básicas.
 	+ Editor de código
 	+ Navegador web
+
+## Poner código JS dentro de un html es con la etiqueta <script></script>
+# Video 16.
