@@ -105,4 +105,21 @@ a propiedad href para mandar a un link, puede ser una ubicacion, la propiedad ti
 	+ Navegador web
 
 ## Poner código JS dentro de un html es con la etiqueta <script></script>
-# Video 16.
+
+# Consola. 
+	+ Presentó la consola y así.
+
+# Variables. 
+# Modo estricto.
+	+ Buenas prácticas.
+		'use strict' al inicio de todo archivo.
+
+# Var y Let.
+	+ Para definir variables, let es de TypeScript.
+let para definir en el bloque de código.
+	Vale y existe en el bloque donde se crea. 
+var crea variables globales.
+
+# Constantes
+	+ Su contenido nunca va a cambiar. Su valor no puede ser modificado.
+## Fin video 21
