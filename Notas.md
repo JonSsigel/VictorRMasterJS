@@ -122,4 +122,11 @@ var crea variables globales.
 
 # Constantes
 	+ Su contenido nunca va a cambiar. Su valor no puede ser modificado.
-## Fin video 21
+
+# Operadores y tipos de datos.
+    Los clásicos + - * / % pero, el % quedó raro, dice que manda el resto de una división del primero vs el segundo pero 1 % 44 me retornó 1, no sé por qué.
+    + Funciones
+        + Number(string) -> Retorna un number, puede ser flotante.
+        + parseInt(string) -> Retorna un número entero
+        + parseFloat(string) -> Me retornó un number que puede ser flotante XD
+        + String(algo) -> vuelve algo en un string
