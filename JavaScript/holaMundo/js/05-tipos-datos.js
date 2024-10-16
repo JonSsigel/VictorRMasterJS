@@ -31,3 +31,5 @@ console.log(parseInt(numero_falso));// Es número entero.
 console.log(parseFloat(numero_falso));
 
 console.log(String(numero_falso));
+
+console.log(typeof(numero_falso));

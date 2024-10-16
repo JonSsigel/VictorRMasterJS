@@ -130,3 +130,22 @@ var crea variables globales.
         + parseInt(string) -> Retorna un número entero
         + parseFloat(string) -> Me retornó un number que puede ser flotante XD
         + String(algo) -> vuelve algo en un string
+        + typeof(algo) -> Tipo de dato exacto de variables.
+
+# Condicionales.
+    + Comparar algo y ejecutar acción dependiendo del resultado de la comparación.
+
+    + Operadores relacionales.
+        + > Mayor
+        + < Menor 
+        + >= Mayor o igual
+        + <= Menor o igual
+        + == igual
+        + != distinto
+        + === Exactamente igual, incluyedo tipo
+    + Operadores lógicos.
+        + And:&&
+        + Or:||
+        + Negación:!
+    + Switch
+        +Para posibles casos.
