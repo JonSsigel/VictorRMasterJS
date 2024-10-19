@@ -1,8 +1,8 @@
 # Inicio de curso
-	+ Programaci√≥n desde cero
+	+ ProgramaciÛn desde cero
 	+ JavaScript moderno
 	+ jQuery
-	+ Maquetaci√≥n web
+	+ MaquetaciÛn web
 	+ TypeScript y JS POO
 	+ Angular desde cero 
 	+ BackEnd NodeJS
@@ -10,16 +10,16 @@
 	+ MEAN Stack, MongoDBExpressAngularNodeJS
 	+ Desarrollo web full-stack usando JS
 ## HTML
-	+ Qu√© es y las etiquetas.
+	+ QuÈ es y las etiquetas.
 	+ Estructura
 	+ Etiquetas para textos.
 	+ Listas
-	+ Im√°genes
+	+ Im·genes
 	+ Tablas
 	+ Formularios
-	+ Ejercicios completos y m√°s
+	+ Ejercicios completos y m·s
 
-### Lenguaje de marcado para dar estructura a una p√°gina web.
+### Lenguaje de marcado para dar estructura a una p·gina web.
 No tiene que ver con el comportamiento.
 ### CSS
 Para dar estilo.
@@ -34,7 +34,7 @@ br es para salto de linea
 hr para salto de linea pero con rayita pintada
 strong pone en negritas
 em pone en cursiva
-span hace nada sobre el texto pero le puedes dar id's, clases y as√≠, para dar estilos con CSS 
+span hace nada sobre el texto pero le puedes dar id's, clases y asÌ, para dar estilos con CSS 
 i texto en cursiva
 blockquote para hacer referencias lo pone como con sangria y asi.
 
@@ -60,7 +60,7 @@ Dentro de listas puedes poner mas listas.
 	+ table, atributo border para ver el borde de la tabla, se le puso un 1 pero es ver que tanto se le puede poner
 		+ th para el encabezado de la tabla, es con td pero en negritas
 		+ tr renglones
-			 + td columnas, atributos: colspan es el tama√±o, osea si le pongo dos es de dos columnas
+			 + td columnas, atributos: colspan es el tamaÒo, osea si le pongo dos es de dos columnas
 
 ## Formularios
 + Atributos
@@ -79,8 +79,8 @@ Dentro de listas puedes poner mas listas.
 		Subtitulo, encabezado de menor tamanio
 		Parrafo, imagen, y un enlace llevara a otra pagina con el mismo encabezado y menus
 			Diferencia es el subtitulo y una tabla que llevara con cada elemento un texto y abajo una imagen
-		Mismo encabezado para otra p√°gina de contacto.
-			Formulario, nombre, descripcion, selector y bot√≥n de enviar. P√°ginas enlazadas entre si.
+		Mismo encabezado para otra p·gina de contacto.
+			Formulario, nombre, descripcion, selector y botÛn de enviar. P·ginas enlazadas entre si.
 ## Etiquetas adicionales
 
 a propiedad href para mandar a un link, puede ser una ubicacion, la propiedad title es un toolkit
@@ -88,7 +88,7 @@ a propiedad href para mandar a un link, puede ser una ubicacion, la propiedad ti
 
 
 # JavaScript
-	+ Primeros pasos, el hola mundo y as√≠
+	+ Primeros pasos, el hola mundo y asÌ
 	+ Variables
 	+ Tipos de datos
 	+ Operadores
@@ -100,23 +100,23 @@ a propiedad href para mandar a un link, puede ser una ubicacion, la propiedad ti
 	+ Arrays
 	+ Bloque de ejercicios 2
 
-## Herramientas b√°sicas.
-	+ Editor de c√≥digo
+## Herramientas b·sicas.
+	+ Editor de cÛdigo
 	+ Navegador web
 
-## Poner c√≥digo JS dentro de un html es con la etiqueta <script></script>
+## Poner cÛdigo JS dentro de un html es con la etiqueta <script></script>
 
 # Consola. 
-	+ Present√≥ la consola y as√≠.
+	+ PresentÛ la consola y asÌ.
 
 # Variables. 
 # Modo estricto.
-	+ Buenas pr√°cticas.
+	+ Buenas pr·cticas.
 		'use strict' al inicio de todo archivo.
 
 # Var y Let.
 	+ Para definir variables, let es de TypeScript.
-let para definir en el bloque de c√≥digo.
+let para definir en el bloque de cÛdigo.
 	Vale y existe en el bloque donde se crea. 
 var crea variables globales.
 
@@ -124,16 +124,16 @@ var crea variables globales.
 	+ Su contenido nunca va a cambiar. Su valor no puede ser modificado.
 
 # Operadores y tipos de datos.
-    Los cl√°sicos + - * / % pero, el % qued√≥ raro, dice que manda el resto de una divisi√≥n del primero vs el segundo pero 1 % 44 me retorn√≥ 1, no s√© por qu√©.
+    Los cl·sicos + - * / % pero, el % quedÛ raro, dice que manda el resto de una divisiÛn del primero vs el segundo pero 1 % 44 me retornÛ 1, no sÈ por quÈ.
     + Funciones
         + Number(string) -> Retorna un number, puede ser flotante.
-        + parseInt(string) -> Retorna un n√∫mero entero
-        + parseFloat(string) -> Me retorn√≥ un number que puede ser flotante XD
+        + parseInt(string) -> Retorna un n˙mero entero
+        + parseFloat(string) -> Me retornÛ un number que puede ser flotante XD
         + String(algo) -> vuelve algo en un string
         + typeof(algo) -> Tipo de dato exacto de variables.
 
 # Condicionales.
-    + Comparar algo y ejecutar acci√≥n dependiendo del resultado de la comparaci√≥n.
+    + Comparar algo y ejecutar acciÛn dependiendo del resultado de la comparaciÛn.
 
     + Operadores relacionales.
         + > Mayor
@@ -143,9 +143,11 @@ var crea variables globales.
         + == igual
         + != distinto
         + === Exactamente igual, incluyedo tipo
-    + Operadores l√≥gicos.
+    + Operadores lÛgicos.
         + And:&&
         + Or:||
-        + Negaci√≥n:!
+        + NegaciÛn:!
     + Switch
         +Para posibles casos.
+Cambio para acentos.
+Fin de video 26.
