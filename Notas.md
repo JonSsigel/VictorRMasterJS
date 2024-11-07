@@ -139,7 +139,7 @@ var crea variables globales.
         + > Mayor
         + < Menor 
         + >= Mayor o igual
-        + <= Menor o igual
+        + <= Menor o igual //> puse el mayor que para hacer como el scape, jaja.
         + == igual
         + != distinto
         + === Exactamente igual, incluyedo tipo
@@ -150,4 +150,28 @@ var crea variables globales.
     + Switch
         +Para posibles casos.
 Cambio para acentos.
-Fin de video 26.
+
+    + For recordar que no se puede poner solo i = 1, hay que definirla con var o let i = 2
+
+## debugger
+    + El compi puso un debugger; en el for, y el código se para ahí, y en la consola, le puso en el watcher un + y numero para ver lo que tiene la variable.
+
+    + while. No olvidar poner dentro del bucle el incremento y no se quede la página trabada. Este se ejecuta mientras la condición se cumpla.
+        + Puede tener decrementos usando el -- en lugar de ++
+
+    + do-while, este hace todo una vez por lo menos ya que evalua al final.
+
+    + break dentro de un bucle hace que salga.
+
+# Alertas, confirmaciones y poopUps
+    + alert(). Para alertas.
+    + confirm(). Para confirmaciones. Aceptar y cancelar,true false.
+    + prompt(textoMostrado,valorDefecto);
+
+# Ejercicios.
+    01. Un programa que compare dos números y nos diga cuál es mayor, cuál es menor y si son iguales.
+
+
+
+
+# Final video 40
