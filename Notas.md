@@ -172,6 +172,8 @@ Cambio para acentos.
     01. Un programa que compare dos números y nos diga cuál es mayor, cuál es menor y si son iguales.
 
 
+# Parámetro opcional.
+    + Se definen con valores default para que no den lata.
 
 
-# Final video 40
+# Final video 44
