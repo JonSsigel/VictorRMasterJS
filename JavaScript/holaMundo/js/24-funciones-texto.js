@@ -62,5 +62,15 @@ var busqueda6 = texto.endsWith('esparta');// al final.
 var busqueda6 = texto.includes('esparta');// Este es caseSensitive, al tiro.
 console.log({busqueda6});
 
+// Reemplazar, separa, colocar text.
+var busqueda7 = texto.replace('esparta','Italia');
+busqueda7 = texto.slice(8);// muestra cadena desde donde cides, es como el substring y puede tener dos parámetros. Justo cono substring
+busqueda7 = texto.split(' ');// recibe el separador para dividir en arrays, aqui dividirá la cadena por palabra por que usa el espacio para dividir.
+// el split está chido, y el includes
+busqueda7 = texto.trim();// quitar espacios delanteros y traseros de una cadena.
+
+console.log('Siete ',busqueda7);
+
+// Plantillas.
 
 

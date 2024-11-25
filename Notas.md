@@ -178,4 +178,16 @@ Cambio para acentos.
 # PARAMETRO REST Y SPREAD.
     + rest es el ...parametro, y se guarda un array de valores. Y este es al definir la función.
     + spread igual que el de arriba pero este es al mandar el parámetro.
-# Final video 44
+
+# Cadenas
+    + del 23 en adelante.
+    +
+# Arreglos.
+    + checar el forEach
+    + peliculas.splice(indice,1);// splice en arreglos permite sacar valores empezando en el índice que le dices y el segundo es el cuantos borrará/sacará
+
+
+
+
+
+# Mitad video 57
