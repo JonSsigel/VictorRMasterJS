@@ -175,5 +175,7 @@ Cambio para acentos.
 # Parámetro opcional.
     + Se definen con valores default para que no den lata.
 
-
+# PARAMETRO REST Y SPREAD.
+    + rest es el ...parametro, y se guarda un array de valores. Y este es al definir la función.
+    + spread igual que el de arriba pero este es al mandar el parámetro.
 # Final video 44

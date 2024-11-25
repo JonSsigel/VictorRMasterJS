@@ -12,5 +12,6 @@ listadoFrutas('Naranja', 'Manzana');
 
 listadoFrutas('Naranja', 'Manzana','Pera','Melon','Coco');
 
-var frutas = [];
-listadoFrutas('Naranja', 'Manzana','Pera','Melon','Coco');
+// SPREAD.
+var frutas = ['Naranja', 'Manzana'];
+listadoFrutas(...frutas,'Pera','Melon','Coco');
