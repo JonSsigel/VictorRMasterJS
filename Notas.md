@@ -185,9 +185,12 @@ Cambio para acentos.
 # Arreglos.
     + checar el forEach
     + peliculas.splice(indice,1);// splice en arreglos permite sacar valores empezando en el índice que le dices y el segundo es el cuantos borrará/sacará
-
-
-
+    + array.sort() para ordenar
+    + array.reverse() para dar reversa.
+    + Recorrer arreglo se puede con el for in.
+        for (let lenguaje in lenguajes){
+            console.log(lenguaje)// Te recorre todo y toma lenguaje como cada elemento del arreglo.
+        }
 
 
 # Inicio video 60 
