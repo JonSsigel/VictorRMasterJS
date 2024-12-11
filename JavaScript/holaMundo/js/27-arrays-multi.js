@@ -2,6 +2,7 @@
 
 // Arrays multidimensionales.
 // Arreglos dentro de arreglos.
+var lenguajes = new Array('PHP','js','go','java','C','C++');
 
 var categorias = ['Accion','Terror','Comedias'];
 
@@ -75,4 +76,32 @@ var cadena_array = cadena.split(",");// convertir una cadena en array usando un 
 console.log(categorias.sort());
 console.log(categorias.reverse());
 
+
+for (let lenguaje in lenguajes){
+	document.write(`${lenguajes[lenguaje]}. </br>`);
+}
+
+
+// Busquedas.
+//
+
+let busqueda = lenguajes.find(function(lenguaje){// esta es una función que recibe un lenguaje en este caso
+	return lenguaje == "GO";// retorna cuando lenguaje sea igual a GO, es una condición de retorno. en este caso es caseSensitive
+});
+
+console.log({busqueda});
+
+var busquedaFlecha = lenguajes.find(lenguaje => lenguaje =="PHP"); // esta es lo mismo que la de arriba pero con función de flecha.
+
+console.log({busquedaFlecha});
+
+busquedaFlecha = lenguajes.findIndex(lenguaje => lenguaje =="PHP"); // para sacar el índice del elemento. 
+
+console.log({busquedaFlecha});
+
+let precios = [12,13,14,15];
+
+let busquedaNumeros = precios.some(precio => precio >16); // true si se cumple la condición en algún momento, false si no
+
+console.log({busquedaNumeros});
 
