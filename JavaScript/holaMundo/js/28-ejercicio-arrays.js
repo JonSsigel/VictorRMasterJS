@@ -14,17 +14,18 @@
 	/*numeros[i] = parseInt(prompt(`Introduce número(${i+1}):`,0));*/
 /*};*/
 let numeros = [];
-
-for (let i = 0; i< numeros.length; i++ ){
+const numerosOriginal = [];
+for (let i = 0; i< 6; i++ ){
 	numeros.push(parseInt(prompt(`Introduce número(${i+1}):`,0)));
+	numerosOriginal[i] = numeros[i];
 }
 
-const numerosOriginal = numeros;
 console.log({numeros});
 // 2.
 document.write('<h1>Arreglo de números.</h1></br>');
 for(let numero in numeros){
-	document.write(`${parseInt(numero) + 1}. ${numeros[numero]} </br>`);
+	document.write(`${parseInt(numero) + 1}. <strong>${numeros[numero]} </strong></br>`);
+	console.log(`posición[${numero}]: valor[${numeros[numero]}]`);
 };
 
 let numerosOrdenados = numeros.sort();
@@ -51,4 +52,17 @@ let arrayInvertido = numerosOriginal.reverse();
 console.log({arrayInvertido});
 
 // 5. 
+console.log('Número de elementos: ',numerosOriginal.length);
+
+// 6. 
+
+var busqueda = parseInt(prompt("Buscar numero: ",0));
+
+var posicion = numerosOriginal.findIndex(numero => numero == busqueda);
+
+if(posicion && posicion != -1) {
+	console.log('Posicion de la búsqueda: ',posicion);
+} else {
+	console.log('Numero no encontrado');
+}
 

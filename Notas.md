@@ -192,5 +192,16 @@ Cambio para acentos.
             console.log(lenguaje)// Te recorre todo y toma lenguaje como cada elemento del arreglo.
         }
     + Búsqueda. Find Archivo 27.
+        Las funciones de búsqueda reciben una función callback
 
-# Inicio video 60 
+# JavaScript en profundidad, vamos a ver que show con el DOM(Document Object Model) y BOM(Browser Object Model), Eventos. Y al final ejercicios.
+
+# DOM
+    + Cargar el script al final del body para que el html termine de ejecutarse y poder cachar desde el script, si se hace antes busca en null por que aún no termina el html
+        archivo 01-dom.js
+
+
+
+
+# Inicio video 65 
+
