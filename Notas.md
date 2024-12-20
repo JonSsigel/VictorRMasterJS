@@ -175,7 +175,7 @@ Cambio para acentos.
 # Parámetro opcional.
     + Se definen con valores default para que no den lata.
 
-# PARAMETRO REST Y SPREAD.
+# PARAMETRO REST Y SPREAD. 
     + rest es el ...parametro, y se guarda un array de valores. Y este es al definir la función.
     + spread igual que el de arriba pero este es al mandar el parámetro.
 
@@ -199,9 +199,26 @@ Cambio para acentos.
 # DOM
     + Cargar el script al final del body para que el html termine de ejecutarse y poder cachar desde el script, si se hace antes busca en null por que aún no termina el html
         archivo 01-dom.js
+        getElementById para obtener buscando por id
+        getElementsByTagName para buscar por nombre de la etiqueta.
+            Una vez se tiene el elemento:
+                textContent - Saca el texto pero solo es informativo
+                innerHTML - Este te permite cambiar el texto y no solo es informativo.
+        docuemnt.createElement es para crear un elemento y le pones el nombre de la etiqueta, para un p por ejemplo document.createElement(p)
+        document.createTextNode para crear un nodo de texto, luego al elemento creado le haces un append de este texto para que lo cargue
+            parrafo.append(texto);
+            parrafo.prepend(texto);- para ponerlo antes de lo que hay
+                Luego ya que tengo el párrafo hay que meterlo en el elemento html que quiero
+        document.querySelector(). Regresa solo un elemento, no un array como el getElementsByClassName o getElementById
+            Pero al parecer hay un querySelectorAll y este regresa un nodeList los gets regresan htlmCollection
 
+# BOM
+    + Para las opciones de la ventana del navegador.
+        Se accede a través del objeto window
+    + Este está todo en el archivito 02-bom.js pero es muy leve, seguro hay mucho que puedes hacer con el BOM, revisar por que se ve chido
 
+# Eventos.
+    + Son funciones que se ejecutan cuando sucede algo, un click, mover ratón, borrar algo, redimensionar ventana, hay varios. También hay que revisar.
 
-
-# Inicio video 65 
+# Inicio video 69 
 
