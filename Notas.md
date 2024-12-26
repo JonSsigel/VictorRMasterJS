@@ -220,5 +220,12 @@ Cambio para acentos.
 # Eventos.
     + Son funciones que se ejecutan cuando sucede algo, un click, mover ratón, borrar algo, redimensionar ventana, hay varios. También hay que revisar.
 
-# Inicio video 69 
+    + Botones. Se puso un botón y en el htlm en onclick='hacer algo'. Este algo puede ser ahí mismo como un alert y así o se puede invocar algo en el js
+        Evento onclick en html invocando funciones en js, y para doble click es ondblclick para el evento en el html.
+
+# Como recomendación, dice que es mejor llevarse todo al js.
+    + con el addEventListener está según esto más chido, revisa el código en 03-eventos.js
+    + como nota, hay que ver como manejar los eventos de mouse en el html.
+
+# Inicio video 70.
 
