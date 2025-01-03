@@ -39,3 +39,22 @@ boton.addEventListener('mouseout', ()=>{
 	boton.style.background='grey';
 });
 
+// Evento focus
+var input = document.querySelector("#campo_nombre");
+input.addEventListener('focus', ()=>{
+	console.log('[focus]Estas dentro del input');
+});
+
+// Evento blur
+input.addEventListener('blur', ()=>{
+	console.log('[blur]Estas fuera del input');
+});
+
+/*// Evento keydown*/
+
+
+/*// Evento keypress*/
+
+
+/*// Evento keyup*/
+

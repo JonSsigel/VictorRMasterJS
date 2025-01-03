@@ -229,3 +229,4 @@ Cambio para acentos.
 
 # Inicio video 70.
 
+Mitad del video 70
