@@ -218,7 +218,7 @@ Cambio para acentos.
     + Este está todo en el archivito 02-bom.js pero es muy leve, seguro hay mucho que puedes hacer con el BOM, revisar por que se ve chido
 
 # Eventos.
-    + Son funciones que se ejecutan cuando sucede algo, un click, mover ratón, borrar algo, redimensionar ventana, hay varios. También hay que revisar.
+    + Son funciones que se ejecutan cuando sucede algo, un clic jkk, mover ratón, borrar algo, redimensionar ventana, hay varios. También hay que revisar.
 
     + Botones. Se puso un botón y en el htlm en onclick='hacer algo'. Este algo puede ser ahí mismo como un alert y así o se puede invocar algo en el js
         Evento onclick en html invocando funciones en js, y para doble click es ondblclick para el evento en el html.
@@ -241,6 +241,7 @@ Cambio para acentos.
 # ejercicios video 73.
     + al poner onsubmit ="return false;" te deja en la página donde estás por que el submit recarga la página
     + el .nombre en los estilos es para hacerlo por clase y pueden tener varias clases, solo separamos por espacio y ya, como el box dashed
+    + operador this. En el ejemplo, es por que si usamos un evento en el boton por ejemplo, this hace referencia al mismo elemento que en realidad invoca el elemento para no tener que acceder de nuevo a la variable, usamos this y listo.
 
 # Final video 74.
 
