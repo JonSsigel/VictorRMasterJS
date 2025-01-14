@@ -241,5 +241,6 @@ Cambio para acentos.
 # ejercicios video 73.
     + al poner onsubmit ="return false;" te deja en la página donde estás por que el submit recarga la página
     + el .nombre en los estilos es para hacerlo por clase y pueden tener varias clases, solo separamos por espacio y ya, como el box dashed
-# Inicio video 70.
+
+# Final video 74.
 
