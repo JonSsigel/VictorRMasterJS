@@ -243,5 +243,5 @@ Cambio para acentos.
     + el .nombre en los estilos es para hacerlo por clase y pueden tener varias clases, solo separamos por espacio y ya, como el box dashed
     + operador this. En el ejemplo, es por que si usamos un evento en el boton por ejemplo, this hace referencia al mismo elemento que en realidad invoca el elemento para no tener que acceder de nuevo a la variable, usamos this y listo.
 
-# Final video 74.
+# Final video 75.
 
