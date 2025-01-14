@@ -222,11 +222,24 @@ Cambio para acentos.
 
     + Botones. Se puso un botón y en el htlm en onclick='hacer algo'. Este algo puede ser ahí mismo como un alert y así o se puede invocar algo en el js
         Evento onclick en html invocando funciones en js, y para doble click es ondblclick para el evento en el html.
+    + Focus. Cuando le das al campo me parece, al entrar al campo.
+    + Blur. Cuando sales del elemento pero es al darle click fuera.
+    + keydown. Al presionar una tecla. String.fromCharCode(event.keyCode) va a capturar la tecla
+    + keypress. Igual que el de arriba pero me parece que es hasta que sueltas la tecla y el de arriba manda upper, que cagado.
+    + keyup. Al soltar una tecla
+    + load. Evento que se lanza cuando todo el html está ya cargado. Se usa para evitar tener errores cuando usas js antes de que termine de cargarse el html completo
+        window.addEventListener('load',() => {codigo todo todo })
+    + setInterval. para ejecutar algo cada cierto tiempo, es el segundo parámetro de la función.
+    + setTimeout. Para ejecutar una única vez cuando se cumple el tiempo. 
+        + Existe el clearInterval(id) que el id es lo que tiene el intervalo, esto es para parar el tiempo.
 
 # Como recomendación, dice que es mejor llevarse todo al js.
     + con el addEventListener está según esto más chido, revisa el código en 03-eventos.js
     + como nota, hay que ver como manejar los eventos de mouse en el html.
 
+
+# ejercicios video 73.
+    + al poner onsubmit ="return false;" te deja en la página donde estás por que el submit recarga la página
+    + el .nombre en los estilos es para hacerlo por clase y pueden tener varias clases, solo separamos por espacio y ya, como el box dashed
 # Inicio video 70.
 
-Mitad del video 70
