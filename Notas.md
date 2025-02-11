@@ -245,6 +245,18 @@ Cambio para acentos.
 # JSON
     + JavaScript Object Notation
         Array asociativos. 
+    + Forma ligera de mandar datos. MongoDB tiene archivos con json, y al parecer es muy rápida, hay que hacer mi cursito de mongo.
 
-# inicio video 76.
+# localStorage
+    + Memoria que permanece mientras navegas en tu web, como si fueran por sesión.
+    + En inspeccionar, hay una ventanita de application y ahí está el localStorage por dominio, eso está chido por que se puede ver lo que hay.
+    + En localStorage o enviar info por appi y así, suele ser necesario convertir a string. Tiene que ser número o string obligatorio. Se cambia un json a jsonString JSON.stringify
+        + Para sacar de una cadena es el JSON.parse.
+    + En el archivito 07-localStorage.js hay ejemplos de como borrar y limpiar el localStorage.
+        
+# Peticiones con Ajax
+    + fetch. Permite hacer peticiones, es una llamada a un servicio. Conseguir resultados desde api externa y BackEnd externo y así.
+        En el video 79 al final hace lo del display none para un html con class, con el querySelector usa en vez de # un ., esto es como nota.
+
+# inicio video 80.
 
