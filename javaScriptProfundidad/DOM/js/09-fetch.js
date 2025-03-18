@@ -67,4 +67,21 @@ window.addEventListener('load', () =>{
 		user_id.append(avatar);
 	}
 
+// Crear una promesa desde cero.
+	function getInfo(){
+		let profesor = {
+			nombre : 'Victor',
+			apellidos : 'Robles',
+			url : 'https://victorroblesweb.es'
+		};
+		return new Promise((resolve,reject)=>{
+			let profesor_string =	JSON.stringify(profesor);
+			if( typeof profesor_string !='string' ) return reject();
+
+			return resolve(profesor_string);
+		});
+
+	}
+
+
 });
