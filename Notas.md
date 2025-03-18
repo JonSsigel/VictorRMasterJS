@@ -258,5 +258,9 @@ Cambio para acentos.
     + fetch. Permite hacer peticiones, es una llamada a un servicio. Conseguir resultados desde api externa y BackEnd externo y así.
         En el video 79 al final hace lo del display none para un html con class, con el querySelector usa en vez de # un ., esto es como nota.
 
-# inicio video 80.
+# Promesas y fetch
+    + las promesas ayudan cuando tienes callback anidadas o seguidas, para como detener hasta que termine y así.
+    + Esto está chido por que puedes ir encadenando then y then y then por que puedes poner un return que tomará el siguiente Then
+
+# inicio video 81.
 
