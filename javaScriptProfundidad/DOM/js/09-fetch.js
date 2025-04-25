@@ -5,7 +5,9 @@ window.addEventListener('load', () =>{
 	// Fetch (ajax) y peticiones a servicios/apis rest
 
 	//let input = 'https://jsonplaceholder.typicode.com/users';// Esta le dio lata al pendejo este jajajaj
-	let input = 'https://reqres.in/api/users/';
+	//let input = 'https://jsonplaceholder.typicode.com/users';
+	let apiKey = 'reqres-free-v1'
+	let input = `https://reqres.in/api/users/`; // esta dejó de funcionar y puse la primera.
 /* Esto fue como directo, en video 79, en el 80 se pasa a funciones
 	fetch(input)
 		.then(response => response.json())
@@ -25,29 +27,38 @@ window.addEventListener('load', () =>{
 		.then(response => response.json())
 		.then(response => {
 			let usuarios = response.data;
-			console.log({usuarios});
 			listadoUsuarios(usuarios);
 			
 			return getUser(2);
  		})
 		.then(response => response.json())
 		.then(response =>{
-			listadoIdUsuario(response.data);
+			let usuario2 = response.data;
+			listadoIdUsuario(usuario2);
 		});
 
+/* Función fetch mia para llevar el key ya*/
+	function fetchMia(dir){
+		return fetch(dir,{
+			method : 'GET',
+			headers : {
+				'x-api-key': apiKey
+			}
+		})
+	}
 /* Definicion de metodos y funciones.*/
 	function getUsers(){
-		return fetch(input);
+		return fetchMia(input)
 	}
 
 	// funcion para obtener un usuario en concreto.
 	function getUser(id){
-		return fetch(`${input}${id}`);
+		return fetchMia(`${input}${id}`);
 	}
 
 	// función para listar usuarios.
 	function listadoUsuarios(usuarios) {
-		usuarios.map((user, i) => {
+		usuarios.map((user) => {
 			let users_list = document.querySelector('#users-list');
 			let nombre = document.createElement('h4');
 			nombre.innerHTML = `${user.id}. ${user.first_name} ${user.last_name}`;
@@ -60,6 +71,7 @@ window.addEventListener('load', () =>{
 		let user_id = document.querySelector('#users-list-id');
 		let usuario = document.createElement('h4');
 		let avatar = document.createElement('img');
+		console.log({user});
 		usuario.innerHTML = `${user.id}. ${user.first_name} ${user.last_name}`;
 		avatar.src = user.avatar;
 		avatar.width = '100';
