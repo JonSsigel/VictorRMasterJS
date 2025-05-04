@@ -263,4 +263,4 @@ Cambio para acentos.
     + Esto está chido por que puedes ir encadenando then y then y then por que puedes poner un return que tomará el siguiente Then
 
 # inicio video 81. Hasta no terminar el módulo de peticiones asíncronas, voy a ver desde el 79 jeje.
-
+i
