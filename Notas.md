@@ -275,4 +275,29 @@ Cambio para acentos.
 + puso el archivo de try-catch junto, es para cargar varios archivos, como imports supongo pero me parece que son malas prácticas eso?
 + Dentro del try va todo código susceptible a errores. Si el código genera algún error pasa al catch.
 
-# inicio video 81. Hasta no terminar el m�dulo de peticiones as�ncronas, voy a ver desde el 79 jeje.
+# Fechas. Video 84
++ Objeto Date. Hay que crear una instancia de la clase Date y ahí hay un chingo de métodos
+
+# Funciones matemáticas, Video 85
++ Objeto Math, buscar en google el objeto Math y sus métodos para sacar randoms, Pi y así.
+
+# Video 86 es descarga de ejercicios
+# Video 87. Introducción a jQuery
++ Pueque que esté obsoleta, ja.
+    + Primeros pasos
+    + Selectores
+    + Eventos
+    + Efectos y animaciones.
+    + AJAX
+    + jQuery UI, manipular interfaz de una pagina web.
+    + Animaciones e interacciones.
+    + Plugins y widgets.
+    + Proyecto javaScript + jQuery
+
+# Video 88, primeros pasos con jQuery
+Qué es?
+    Libreria para js que nos da muchas cosas ya desarrolladas, como peticiones ajax que eso es lo que me va a servir supongo.
+Para qué sirve?
+
+
+# inicio video 89.
