@@ -29,12 +29,20 @@ window.addEventListener('load', () =>{
 			let usuarios = response.data;
 			listadoUsuarios(usuarios);
 			
+			return getInfo();
+ 		}).then(data => {
+			let div_profesor = document.querySelector('#profesor');
+			div_profesor.innerHTML = data;
 			return getUser(2);
- 		})
+		})
 		.then(response => response.json())
 		.then(response =>{
 			let usuario2 = response.data;
 			listadoIdUsuario(usuario2);
+		})
+		.catch(error => {
+			console.log(error);
+			alert('Error en las peticiones o promesas');
 		});
 
 /* Función fetch mia para llevar el key ya*/
@@ -86,11 +94,16 @@ window.addEventListener('load', () =>{
 			apellidos : 'Robles',
 			url : 'https://victorroblesweb.es'
 		};
-		return new Promise((resolve,reject)=>{
-			let profesor_string =	JSON.stringify(profesor);
-			if( typeof profesor_string !='string' ) return reject();
 
-			return resolve(profesor_string);
+		return new Promise((resolve,reject)=>{
+			let profesor_string = '';
+			setTimeout(() => {
+				profesor_string =	JSON.stringify(profesor);
+				if( typeof profesor_string !='string' || profesor_string == '') return reject('Error Mio');
+
+				return resolve(profesor_string);
+			}, 3000);
+
 		});
 
 	}

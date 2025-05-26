@@ -1,8 +1,8 @@
 # Inicio de curso
-	+ Programación desde cero
+	+ Programaciï¿½n desde cero
 	+ JavaScript moderno
 	+ jQuery
-	+ Maquetación web
+	+ Maquetaciï¿½n web
 	+ TypeScript y JS POO
 	+ Angular desde cero 
 	+ BackEnd NodeJS
@@ -10,16 +10,16 @@
 	+ MEAN Stack, MongoDBExpressAngularNodeJS
 	+ Desarrollo web full-stack usando JS
 ## HTML
-	+ Qué es y las etiquetas.
+	+ Quï¿½ es y las etiquetas.
 	+ Estructura
 	+ Etiquetas para textos.
 	+ Listas
-	+ Imágenes
+	+ Imï¿½genes
 	+ Tablas
 	+ Formularios
-	+ Ejercicios completos y más
+	+ Ejercicios completos y mï¿½s
 
-### Lenguaje de marcado para dar estructura a una página web.
+### Lenguaje de marcado para dar estructura a una pï¿½gina web.
 No tiene que ver con el comportamiento.
 ### CSS
 Para dar estilo.
@@ -34,7 +34,7 @@ br es para salto de linea
 hr para salto de linea pero con rayita pintada
 strong pone en negritas
 em pone en cursiva
-span hace nada sobre el texto pero le puedes dar id's, clases y así, para dar estilos con CSS 
+span hace nada sobre el texto pero le puedes dar id's, clases y asï¿½, para dar estilos con CSS 
 i texto en cursiva
 blockquote para hacer referencias lo pone como con sangria y asi.
 
@@ -60,7 +60,7 @@ Dentro de listas puedes poner mas listas.
 	+ table, atributo border para ver el borde de la tabla, se le puso un 1 pero es ver que tanto se le puede poner
 		+ th para el encabezado de la tabla, es con td pero en negritas
 		+ tr renglones
-			 + td columnas, atributos: colspan es el tamaño, osea si le pongo dos es de dos columnas
+			 + td columnas, atributos: colspan es el tamaï¿½o, osea si le pongo dos es de dos columnas
 
 ## Formularios
 + Atributos
@@ -74,192 +74,205 @@ Dentro de listas puedes poner mas listas.
 + input tipo submit para borrar y enviar
 
 # Ejercicio
-	Varias paginas enlazadas
-	Pagina principal con encabezado, menu de listas con enlaces a otras paginas
-		Subtitulo, encabezado de menor tamanio
-		Parrafo, imagen, y un enlace llevara a otra pagina con el mismo encabezado y menus
-			Diferencia es el subtitulo y una tabla que llevara con cada elemento un texto y abajo una imagen
-		Mismo encabezado para otra página de contacto.
-			Formulario, nombre, descripcion, selector y botón de enviar. Páginas enlazadas entre si.
+Varias paginas enlazadas
+Pagina principal con encabezado, menu de listas con enlaces a otras paginas
+    Subtitulo, encabezado de menor tamanio
+    Parrafo, imagen, y un enlace llevara a otra pagina con el mismo encabezado y menus
+        Diferencia es el subtitulo y una tabla que llevara con cada elemento un texto y abajo una imagen
+    Mismo encabezado para otra pï¿½gina de contacto.
+        Formulario, nombre, descripcion, selector y botï¿½n de enviar. Pï¿½ginas enlazadas entre si.
 ## Etiquetas adicionales
 
 a propiedad href para mandar a un link, puede ser una ubicacion, la propiedad title es un toolkit
-	propiedad target="_blank" para que lo abra en otra ventana
+        propiedad target="_blank" para que lo abra en otra ventana
 
 
 # JavaScript
-	+ Primeros pasos, el hola mundo y así
-	+ Variables
-	+ Tipos de datos
-	+ Operadores
-	+ Condicionales
-	+ Bucles
-	+ Alertas y ventanas
-	+ Bloque de ejercicios 1
-	+ Funciones
-	+ Arrays
-	+ Bloque de ejercicios 2
++ Primeros pasos, el hola mundo y asï¿½
++ Variables
++ Tipos de datos
++ Operadores
++ Condicionales
++ Bucles
++ Alertas y ventanas
++ Bloque de ejercicios 1
++ Funciones
++ Arrays
++ Bloque de ejercicios 2
 
-## Herramientas básicas.
-	+ Editor de código
-	+ Navegador web
+## Herramientas bï¿½sicas.
++ Editor de cï¿½digo
++ Navegador web
 
-## Poner código JS dentro de un html es con la etiqueta <script></script>
+## Poner cï¿½digo JS dentro de un html es con la etiqueta <script></script>
 
 # Consola. 
-	+ Presentó la consola y así.
++ Presentï¿½ la consola y asï¿½.
 
 # Variables. 
 # Modo estricto.
-	+ Buenas prácticas.
-		'use strict' al inicio de todo archivo.
++ Buenas prï¿½cticas.
+    'use strict' al inicio de todo archivo.
 
 # Var y Let.
-	+ Para definir variables, let es de TypeScript.
-let para definir en el bloque de código.
-	Vale y existe en el bloque donde se crea. 
++ Para definir variables, let es de TypeScript.
+let para definir en el bloque de cï¿½digo.
+Vale y existe en el bloque donde se crea. 
 var crea variables globales.
 
 # Constantes
-	+ Su contenido nunca va a cambiar. Su valor no puede ser modificado.
++ Su contenido nunca va a cambiar. Su valor no puede ser modificado.
 
 # Operadores y tipos de datos.
-    Los clásicos + - * / % pero, el % quedó raro, dice que manda el resto de una división del primero vs el segundo pero 1 % 44 me retornó 1, no sé por qué.
-    + Funciones
-        + Number(string) -> Retorna un number, puede ser flotante.
-        + parseInt(string) -> Retorna un número entero
-        + parseFloat(string) -> Me retornó un number que puede ser flotante XD
-        + String(algo) -> vuelve algo en un string
-        + typeof(algo) -> Tipo de dato exacto de variables.
+Los clï¿½sicos + - * / % pero, el % quedï¿½ raro, dice que manda el resto de una divisiï¿½n del primero vs el segundo pero 1 % 44 me retornï¿½ 1, no sï¿½ por quï¿½.
++ Funciones
+    + Number(string) -> Retorna un number, puede ser flotante.
+    + parseInt(string) -> Retorna un nï¿½mero entero
+    + parseFloat(string) -> Me retornï¿½ un number que puede ser flotante XD
+    + String(algo) -> vuelve algo en un string
+    + typeof(algo) -> Tipo de dato exacto de variables.
 
 # Condicionales.
-    + Comparar algo y ejecutar acción dependiendo del resultado de la comparación.
++ Comparar algo y ejecutar acciï¿½n dependiendo del resultado de la comparaciï¿½n.
 
-    + Operadores relacionales.
-        + > Mayor
-        + < Menor 
-        + >= Mayor o igual
-        + <= Menor o igual //> puse el mayor que para hacer como el scape, jaja.
-        + == igual
-        + != distinto
-        + === Exactamente igual, incluyedo tipo
-    + Operadores lógicos.
-        + And:&&
-        + Or:||
-        + Negación:!
-    + Switch
-        +Para posibles casos.
++ Operadores relacionales.
+    + > Mayor
+    + < Menor 
+    + >= Mayor o igual
+    + <= Menor o igual //> puse el mayor que para hacer como el scape, jaja.
+    + == igual
+    + != distinto
+    + === Exactamente igual, incluyedo tipo
++ Operadores lï¿½gicos.
+    + And:&&
+    + Or:||
+    + Negaciï¿½n:!
++ Switch
+    +Para posibles casos.
 Cambio para acentos.
 
-    + For recordar que no se puede poner solo i = 1, hay que definirla con var o let i = 2
++ For recordar que no se puede poner solo i = 1, hay que definirla con var o let i = 2
 
 ## debugger
-    + El compi puso un debugger; en el for, y el código se para ahí, y en la consola, le puso en el watcher un + y numero para ver lo que tiene la variable.
++ El compi puso un debugger; en el for, y el cï¿½digo se para ahï¿½, y en la consola, le puso en el watcher un + y numero para ver lo que tiene la variable.
 
-    + while. No olvidar poner dentro del bucle el incremento y no se quede la página trabada. Este se ejecuta mientras la condición se cumpla.
-        + Puede tener decrementos usando el -- en lugar de ++
++ while. No olvidar poner dentro del bucle el incremento y no se quede la pï¿½gina trabada. Este se ejecuta mientras la condiciï¿½n se cumpla.
+    + Puede tener decrementos usando el -- en lugar de ++
 
-    + do-while, este hace todo una vez por lo menos ya que evalua al final.
++ do-while, este hace todo una vez por lo menos ya que evalua al final.
 
-    + break dentro de un bucle hace que salga.
++ break dentro de un bucle hace que salga.
 
 # Alertas, confirmaciones y poopUps
-    + alert(). Para alertas.
-    + confirm(). Para confirmaciones. Aceptar y cancelar,true false.
-    + prompt(textoMostrado,valorDefecto);
++ alert(). Para alertas.
++ confirm(). Para confirmaciones. Aceptar y cancelar,true false.
++ prompt(textoMostrado,valorDefecto);
 
 # Ejercicios.
-    01. Un programa que compare dos números y nos diga cuál es mayor, cuál es menor y si son iguales.
+01. Un programa que compare dos nï¿½meros y nos diga cuï¿½l es mayor, cuï¿½l es menor y si son iguales.
 
 
-# Parámetro opcional.
-    + Se definen con valores default para que no den lata.
+# Parï¿½metro opcional.
++ Se definen con valores default para que no den lata.
 
 # PARAMETRO REST Y SPREAD. 
-    + rest es el ...parametro, y se guarda un array de valores. Y este es al definir la función.
-    + spread igual que el de arriba pero este es al mandar el parámetro.
++ rest es el ...parametro, y se guarda un array de valores. Y este es al definir la funciï¿½n.
++ spread igual que el de arriba pero este es al mandar el parï¿½metro.
 
 # Cadenas
-    + del 23 en adelante.
-    +
++ del 23 en adelante.
++
 # Arreglos.
-    + checar el forEach
-    + peliculas.splice(indice,1);// splice en arreglos permite sacar valores empezando en el índice que le dices y el segundo es el cuantos borrará/sacará
-    + array.sort() para ordenar
-    + array.reverse() para dar reversa.
-    + Recorrer arreglo se puede con el for in.
-        for (let lenguaje in lenguajes){
-            console.log(lenguaje)// Te recorre todo y toma lenguaje como cada elemento del arreglo.
-        }
-    + Búsqueda. Find Archivo 27.
-        Las funciones de búsqueda reciben una función callback
++ checar el forEach
++ peliculas.splice(indice,1);// splice en arreglos permite sacar valores empezando en el ï¿½ndice que le dices y el segundo es el cuantos borrarï¿½/sacarï¿½
++ array.sort() para ordenar
++ array.reverse() para dar reversa.
++ Recorrer arreglo se puede con el for in.
+    for (let lenguaje in lenguajes){
+        console.log(lenguaje)// Te recorre todo y toma lenguaje como cada elemento del arreglo.
+    }
++ Bï¿½squeda. Find Archivo 27.
+    Las funciones de bï¿½squeda reciben una funciï¿½n callback
 
 # JavaScript en profundidad, vamos a ver que show con el DOM(Document Object Model) y BOM(Browser Object Model), Eventos. Y al final ejercicios.
 
 # DOM
-    + Cargar el script al final del body para que el html termine de ejecutarse y poder cachar desde el script, si se hace antes busca en null por que aún no termina el html
-        archivo 01-dom.js
-        getElementById para obtener buscando por id
-        getElementsByTagName para buscar por nombre de la etiqueta.
-            Una vez se tiene el elemento:
-                textContent - Saca el texto pero solo es informativo
-                innerHTML - Este te permite cambiar el texto y no solo es informativo.
-        docuemnt.createElement es para crear un elemento y le pones el nombre de la etiqueta, para un p por ejemplo document.createElement(p)
-        document.createTextNode para crear un nodo de texto, luego al elemento creado le haces un append de este texto para que lo cargue
-            parrafo.append(texto);
-            parrafo.prepend(texto);- para ponerlo antes de lo que hay
-                Luego ya que tengo el párrafo hay que meterlo en el elemento html que quiero
-        document.querySelector(). Regresa solo un elemento, no un array como el getElementsByClassName o getElementById
-            Pero al parecer hay un querySelectorAll y este regresa un nodeList los gets regresan htlmCollection
++ Cargar el script al final del body para que el html termine de ejecutarse y poder cachar desde el script, si se hace antes busca en null por que aï¿½n no termina el html
+    archivo 01-dom.js
+    getElementById para obtener buscando por id
+    getElementsByTagName para buscar por nombre de la etiqueta.
+        Una vez se tiene el elemento:
+            textContent - Saca el texto pero solo es informativo
+            innerHTML - Este te permite cambiar el texto y no solo es informativo.
+    docuemnt.createElement es para crear un elemento y le pones el nombre de la etiqueta, para un p por ejemplo document.createElement(p)
+    document.createTextNode para crear un nodo de texto, luego al elemento creado le haces un append de este texto para que lo cargue
+        parrafo.append(texto);
+        parrafo.prepend(texto);- para ponerlo antes de lo que hay
+            Luego ya que tengo el pï¿½rrafo hay que meterlo en el elemento html que quiero
+    document.querySelector(). Regresa solo un elemento, no un array como el getElementsByClassName o getElementById
+        Pero al parecer hay un querySelectorAll y este regresa un nodeList los gets regresan htlmCollection
 
 # BOM
-    + Para las opciones de la ventana del navegador.
-        Se accede a través del objeto window
-    + Este está todo en el archivito 02-bom.js pero es muy leve, seguro hay mucho que puedes hacer con el BOM, revisar por que se ve chido
++ Para las opciones de la ventana del navegador.
+    Se accede a travï¿½s del objeto window
++ Este estï¿½ todo en el archivito 02-bom.js pero es muy leve, seguro hay mucho que puedes hacer con el BOM, revisar por que se ve chido
 
 # Eventos.
-    + Son funciones que se ejecutan cuando sucede algo, un clic jkk, mover ratón, borrar algo, redimensionar ventana, hay varios. También hay que revisar.
++ Son funciones que se ejecutan cuando sucede algo, un clic jkk, mover ratï¿½n, borrar algo, redimensionar ventana, hay varios. Tambiï¿½n hay que revisar.
 
-    + Botones. Se puso un botón y en el htlm en onclick='hacer algo'. Este algo puede ser ahí mismo como un alert y así o se puede invocar algo en el js
-        Evento onclick en html invocando funciones en js, y para doble click es ondblclick para el evento en el html.
-    + Focus. Cuando le das al campo me parece, al entrar al campo.
-    + Blur. Cuando sales del elemento pero es al darle click fuera.
-    + keydown. Al presionar una tecla. String.fromCharCode(event.keyCode) va a capturar la tecla
-    + keypress. Igual que el de arriba pero me parece que es hasta que sueltas la tecla y el de arriba manda upper, que cagado.
-    + keyup. Al soltar una tecla
-    + load. Evento que se lanza cuando todo el html está ya cargado. Se usa para evitar tener errores cuando usas js antes de que termine de cargarse el html completo
-        window.addEventListener('load',() => {codigo todo todo })
-    + setInterval. para ejecutar algo cada cierto tiempo, es el segundo parámetro de la función.
-    + setTimeout. Para ejecutar una única vez cuando se cumple el tiempo. 
-        + Existe el clearInterval(id) que el id es lo que tiene el intervalo, esto es para parar el tiempo.
++ Botones. Se puso un botï¿½n y en el htlm en onclick='hacer algo'. Este algo puede ser ahï¿½ mismo como un alert y asï¿½ o se puede invocar algo en el js
+    Evento onclick en html invocando funciones en js, y para doble click es ondblclick para el evento en el html.
++ Focus. Cuando le das al campo me parece, al entrar al campo.
++ Blur. Cuando sales del elemento pero es al darle click fuera.
++ keydown. Al presionar una tecla. String.fromCharCode(event.keyCode) va a capturar la tecla
++ keypress. Igual que el de arriba pero me parece que es hasta que sueltas la tecla y el de arriba manda upper, que cagado.
++ keyup. Al soltar una tecla
++ load. Evento que se lanza cuando todo el html estï¿½ ya cargado. Se usa para evitar tener errores cuando usas js antes de que termine de cargarse el html completo
+    window.addEventListener('load',() => {codigo todo todo })
++ setInterval. para ejecutar algo cada cierto tiempo, es el segundo parï¿½metro de la funciï¿½n.
++ setTimeout. Para ejecutar una ï¿½nica vez cuando se cumple el tiempo. 
+    + Existe el clearInterval(id) que el id es lo que tiene el intervalo, esto es para parar el tiempo.
 
-# Como recomendación, dice que es mejor llevarse todo al js.
-    + con el addEventListener está según esto más chido, revisa el código en 03-eventos.js
-    + como nota, hay que ver como manejar los eventos de mouse en el html.
+# Como recomendaciï¿½n, dice que es mejor llevarse todo al js.
++ con el addEventListener estï¿½ segï¿½n esto mï¿½s chido, revisa el cï¿½digo en 03-eventos.js
++ como nota, hay que ver como manejar los eventos de mouse en el html.
 
 
 # ejercicios video 73.
-    + al poner onsubmit ="return false;" te deja en la página donde estás por que el submit recarga la página
-    + el .nombre en los estilos es para hacerlo por clase y pueden tener varias clases, solo separamos por espacio y ya, como el box dashed
-    + operador this. En el ejemplo, es por que si usamos un evento en el boton por ejemplo, this hace referencia al mismo elemento que en realidad invoca el elemento para no tener que acceder de nuevo a la variable, usamos this y listo.
++ al poner onsubmit ="return false;" te deja en la pï¿½gina donde estï¿½s por que el submit recarga la pï¿½gina
++ el .nombre en los estilos es para hacerlo por clase y pueden tener varias clases, solo separamos por espacio y ya, como el box dashed
++ operador this. En el ejemplo, es por que si usamos un evento en el boton por ejemplo, this hace referencia al mismo elemento que en realidad invoca el elemento para no tener que acceder de nuevo a la variable, usamos this y listo.
 # JSON
-    + JavaScript Object Notation
-        Array asociativos. 
-    + Forma ligera de mandar datos. MongoDB tiene archivos con json, y al parecer es muy rápida, hay que hacer mi cursito de mongo.
++ JavaScript Object Notation
+    Array asociativos. 
++ Forma ligera de mandar datos. MongoDB tiene archivos con json, y al parecer es muy rï¿½pida, hay que hacer mi cursito de mongo.
 
 # localStorage
-    + Memoria que permanece mientras navegas en tu web, como si fueran por sesión.
-    + En inspeccionar, hay una ventanita de application y ahí está el localStorage por dominio, eso está chido por que se puede ver lo que hay.
-    + En localStorage o enviar info por appi y así, suele ser necesario convertir a string. Tiene que ser número o string obligatorio. Se cambia un json a jsonString JSON.stringify
-        + Para sacar de una cadena es el JSON.parse.
-    + En el archivito 07-localStorage.js hay ejemplos de como borrar y limpiar el localStorage.
-        
++ Memoria que permanece mientras navegas en tu web, como si fueran por sesiï¿½n.
++ En inspeccionar, hay una ventanita de application y ahï¿½ estï¿½ el localStorage por dominio, eso estï¿½ chido por que se puede ver lo que hay.
++ En localStorage o enviar info por appi y asï¿½, suele ser necesario convertir a string. Tiene que ser nï¿½mero o string obligatorio. Se cambia un json a jsonString JSON.stringify
+    + Para sacar de una cadena es el JSON.parse.
++ En el archivito 07-localStorage.js hay ejemplos de como borrar y limpiar el localStorage.
+    
 # Peticiones con Ajax
-    + fetch. Permite hacer peticiones, es una llamada a un servicio. Conseguir resultados desde api externa y BackEnd externo y así.
-        En el video 79 al final hace lo del display none para un html con class, con el querySelector usa en vez de # un ., esto es como nota.
++ fetch. Permite hacer peticiones, es una llamada a un servicio. Conseguir resultados desde api externa y BackEnd externo y asï¿½.
+    En el video 79 al final hace lo del display none para un html con class, con el querySelector usa en vez de # un ., esto es como nota.
 
 # Promesas y fetch
-    + las promesas ayudan cuando tienes callback anidadas o seguidas, para como detener hasta que termine y así.
-    + Esto está chido por que puedes ir encadenando then y then y then por que puedes poner un return que tomará el siguiente Then
++ las promesas ayudan cuando tienes callback anidadas o seguidas, para como detener hasta que termine y asï¿½.
++ Esto estï¿½ chido por que puedes ir encadenando then y then y then por que puedes poner un return que tomarï¿½ el siguiente Then
 
-# inicio video 81. Hasta no terminar el módulo de peticiones asíncronas, voy a ver desde el 79 jeje.
+# Crear promesa.
++ Return new Promise-- para crear una promesa desde cero. Que no sea un fetch
+    Se usa el getInfo, con callback de resolve, reject que podemos invocarla cuando queramos.
+        MÃ©todo o funciÃ³n reject es denegar la promesa, es para mandar un error supongo, como cachar lo que quiero cachar.
+* Encadenar promesas se llama promise chaining, literal encadenamiento de promesas.
+
+# Video 82. Capturar error en promesa
++ MÃ©todo catch : .catch(error) que es un arrow, o una callback y se pone todo al final final, si si. O eso pareciera.
+
+# Video 83. Captuar y controlar errores en el cÃ³digo.
++ puso el archivo de try-catch junto, es para cargar varios archivos, como imports supongo pero me parece que son malas prÃ¡cticas eso?
++ Dentro del try va todo cÃ³digo susceptible a errores. Si el cÃ³digo genera algÃºn error pasa al catch.
+
+# inicio video 81. Hasta no terminar el mï¿½dulo de peticiones asï¿½ncronas, voy a ver desde el 79 jeje.
